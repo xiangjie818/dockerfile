@@ -1,0 +1,2122 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 16:54:55 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8081).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 16:55:52 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.31.181:8081).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 16:56:52 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.31.181:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x27e79610
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x27e79610 pid: 57697 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 57697)
+spawned uWSGI worker 1 (pid: 57699, cores: 1)
+spawned uWSGI worker 2 (pid: 57700, cores: 1)
+spawned uWSGI worker 3 (pid: 57701, cores: 1)
+spawned uWSGI worker 4 (pid: 57702, cores: 1)
+spawned uWSGI worker 5 (pid: 57703, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:10:43 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.31.181:8081).
+bind(): Address already in use [core/socket.c line 769]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:14:56 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8081).
+bind(): Address already in use [core/socket.c line 769]
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /usr/java/beiyun/pki_services
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (192.168.31.181:8081)
+running /usr/local/bin/uwsgi
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:16:08 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 192.168.31.181:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x109d9070
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x109d9070 pid: 57697 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 57697)
+spawned uWSGI worker 1 (pid: 59845, cores: 1)
+spawned uWSGI worker 2 (pid: 59846, cores: 1)
+spawned uWSGI worker 3 (pid: 59847, cores: 1)
+spawned uWSGI worker 4 (pid: 59848, cores: 1)
+spawned uWSGI worker 5 (pid: 59849, cores: 1)
+Wed Sep 16 17:16:46 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:16:46 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:16:46 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:16:46 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:16:46 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:17:33 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2de99600
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437424 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2de99600 pid: 59960 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 59960)
+spawned uWSGI worker 1 (pid: 59962, cores: 1)
+spawned uWSGI worker 2 (pid: 59963, cores: 1)
+spawned uWSGI worker 3 (pid: 59964, cores: 1)
+spawned uWSGI worker 4 (pid: 59965, cores: 1)
+spawned uWSGI worker 5 (pid: 59966, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:35:51 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8081).
+bind(): Address already in use [core/socket.c line 769]
+Wed Sep 16 17:37:32 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:37:32 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:37:32 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:37:32 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:37:32 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:37:36 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f79650
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 806058 bytes (787 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f79650 pid: 62441 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 62441)
+spawned uWSGI worker 1 (pid: 62443, cores: 1)
+spawned uWSGI worker 2 (pid: 62444, cores: 1)
+spawned uWSGI worker 3 (pid: 62445, cores: 1)
+spawned uWSGI worker 4 (pid: 62446, cores: 1)
+spawned uWSGI worker 5 (pid: 62447, cores: 1)
+Wed Sep 16 17:45:34 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:45:34 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:45:34 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:45:34 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:45:34 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:45:38 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 15 September 2020 10:35:29
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x39929650
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 806058 bytes (787 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x39929650 pid: 63206 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 63206)
+spawned uWSGI worker 1 (pid: 63208, cores: 1)
+spawned uWSGI worker 2 (pid: 63209, cores: 1)
+spawned uWSGI worker 3 (pid: 63210, cores: 1)
+spawned uWSGI worker 4 (pid: 63211, cores: 1)
+spawned uWSGI worker 5 (pid: 63212, cores: 1)
+Wed Sep 16 17:50:28 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:50:28 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:50:28 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:50:28 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:50:28 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:51:02 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 16 September 2020 09:48:35
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2934db00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2934db00 pid: 64101 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 64101)
+spawned uWSGI worker 1 (pid: 64103, cores: 1)
+spawned uWSGI worker 2 (pid: 64104, cores: 1)
+spawned uWSGI worker 3 (pid: 64105, cores: 1)
+spawned uWSGI worker 4 (pid: 64106, cores: 1)
+spawned uWSGI worker 5 (pid: 64107, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Wed Sep 16 17:54:36 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:54:36 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:54:36 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:54:36 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:54:36 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:54:51 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 16 September 2020 09:48:35
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x11eddb00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x11eddb00 pid: 64364 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 64364)
+spawned uWSGI worker 1 (pid: 64366, cores: 1)
+spawned uWSGI worker 2 (pid: 64367, cores: 1)
+spawned uWSGI worker 3 (pid: 64368, cores: 1)
+spawned uWSGI worker 4 (pid: 64369, cores: 1)
+spawned uWSGI worker 5 (pid: 64370, cores: 1)
+Wed Sep 16 17:56:06 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:56:06 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:56:06 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:56:06 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 17:56:06 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 17:56:16 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 16 September 2020 09:48:35
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34199 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2105dbf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2105dbf0 pid: 64469 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 64469)
+spawned uWSGI worker 1 (pid: 64471, cores: 1)
+spawned uWSGI worker 2 (pid: 64472, cores: 1)
+spawned uWSGI worker 3 (pid: 64473, cores: 1)
+spawned uWSGI worker 4 (pid: 64474, cores: 1)
+spawned uWSGI worker 5 (pid: 64475, cores: 1)
+spawned uWSGI http 1 (pid: 64476)
+/usr/local/lib64/python3.6/site-packages/cryptography/hazmat/bindings/openssl/binding.py:177: CryptographyDeprecationWarning: OpenSSL version 1.0.2 is no longer supported by the OpenSSL project, please upgrade. The next version of cryptography will drop support for it.
+  utils.CryptographyDeprecationWarning,
+[pid: 64475|app: 0|req: 1/1] 192.168.31.77 () {40 vars in 809 bytes} [Wed Sep 16 17:56:28 2020] GET /pki/hello => generated 42 bytes in 92 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 64475|app: 0|req: 2/2] 192.168.31.77 () {42 vars in 806 bytes} [Wed Sep 16 17:56:28 2020] GET /favicon.ico => generated 2191 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 64475|app: 0|req: 3/3] 192.168.31.19 () {38 vars in 738 bytes} [Wed Sep 16 17:57:02 2020] GET / => generated 2140 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Wed Sep 16 18:08:58 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 18:08:58 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 18:08:58 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 18:08:58 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 18:08:58 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 18:13:07 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 16 September 2020 09:48:35
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x35a0db00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x35a0db00 pid: 456 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 456)
+spawned uWSGI worker 1 (pid: 458, cores: 1)
+spawned uWSGI worker 2 (pid: 459, cores: 1)
+spawned uWSGI worker 3 (pid: 460, cores: 1)
+spawned uWSGI worker 4 (pid: 463, cores: 1)
+spawned uWSGI worker 5 (pid: 465, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Wed Sep 16 18:19:27 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 18:19:27 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 18:19:27 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 18:19:27 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Sep 16 18:19:27 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Sep 16 18:19:45 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 16 September 2020 09:48:35
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 64573
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.31.181:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37385 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc0fdc00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xc0fdc00 pid: 911 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 911)
+spawned uWSGI worker 1 (pid: 913, cores: 1)
+spawned uWSGI worker 2 (pid: 914, cores: 1)
+spawned uWSGI worker 3 (pid: 915, cores: 1)
+spawned uWSGI worker 4 (pid: 916, cores: 1)
+spawned uWSGI worker 5 (pid: 917, cores: 1)
+spawned uWSGI http 1 (pid: 918)
+/usr/local/lib64/python3.6/site-packages/cryptography/hazmat/bindings/openssl/binding.py:177: CryptographyDeprecationWarning: OpenSSL version 1.0.2 is no longer supported by the OpenSSL project, please upgrade. The next version of cryptography will drop support for it.
+  utils.CryptographyDeprecationWarning,
+[pid: 915|app: 0|req: 1/1] 192.168.31.77 () {40 vars in 810 bytes} [Wed Sep 16 18:20:20 2020] GET /pki/hello => generated 42 bytes in 66 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+/usr/local/lib64/python3.6/site-packages/cryptography/hazmat/bindings/openssl/binding.py:177: CryptographyDeprecationWarning: OpenSSL version 1.0.2 is no longer supported by the OpenSSL project, please upgrade. The next version of cryptography will drop support for it.
+  utils.CryptographyDeprecationWarning,
+/usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d.req
+{'uid': '13659850-99ef-4e9b-8096-e523de11c1a7', 'gid': '["0dI6EHs1h3"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d.req -keyout /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|13659850-99ef-4e9b-8096-e523de11c1a7"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+.................................................................+++
+..............................................................+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d.req -out /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|13659850-99ef-4e9b-8096-e523de11c1a7
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_key.key -out /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: 0C 93 C7 68 59 17 6A B9 C9 0A D6 C3 52 59 FF 67 5A C3 28 D1 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQILxApvDuOqFICAggA
+MBQGCCqGSIb3DQMHBAi+NwnQa+sdOASCBMiusu9kHfU+u7toylz1PdDJQv0a5C8i
+wKoCSOEWI9TidnNid7RHjDCwGfGzSuS8E8ulhoGQgK33TehyMhB0k5Mei+dGtCIX
+YGQRgzSYvR0HZVFqWNr/sOLFqQxO1szklP6S7qxV+fnpbeEt7RNhl3EJTN0cdXNv
+53LKmcgpNsc2pEiBkTWPJayeUZjBxSpHCkhibgYgAXYP8vQposfPSt2yB91stvgI
+mw+50fRsGR0tJUcLc0Q0nrI+JDJNv6XtC7i4FpOAVEqObHwEgI8SLwM61MHCXBPP
+5jFO72qoIhTEjkXGGUhHXmIcSW7BLrM5MuboDHL9IdH6Ob2PrtU8Tl39XC7EAXlU
+YPxGjzp2OFVmLDSP6BP4OaH/aP4Ra1EdIlTqSpPu6vpI4grlPXo5C9TUjLOqHqo8
+oVv3MSD5jdh7fpxCyBYL1O8DvXhh8FxstvZYq9gcArzN/GeqOErv73RL92rO2iMk
+BGPejsClmhQUK7uLzaC5bMIHuSLJtWmsUDf7i/Xn/R0FFATXQ89HMOEs6Xp3EIT9
+PuvGe2dtux2ELNZnTyCRsre0ftYcsGmbb7wMrIsEVBVQidmAsvSQkNe9Mo8t2d6J
+A5DbsIG29uni3K4/jaF5uWYM1rDKW8ZVFEQzIaWBJqd00wE2PxHGeQ35tw/2/co8
+W0WHbqqkbzS1DoPmNCER82XgIpdtryoS82l6sJgDcrj8hjHUa/oM3J9wSieuwWQU
+ujxRkd7zWyv2GWrVaoLl4u0hjhApBo4kuNcwB3YfukQcJGSHI6wVeqxZXZyO2Hgb
+lBkiCdxRaFq+/+qOUkKTSR/KFVhOKfbN8tRfgsDQhsaRTZLzcYbRXTEh7UZoPWjH
+uocZ1w7lLvmJeyD3YFHjN/OoZl/51bzhZGfywKNBGeyDO/DJDdmzzfB3XKhpk4pn
+bN5ef9obKAVCH6s38r8qXD46QTW6U5i4Ph0gwlg3h3xWUxQjfhbPCefTe+xDVmPF
+KK7N09wNrDDMjXXWgmJRk7cELRwsCJVtAAUBh+aOeFsjtu98YWRvH17qldcwk0JV
+gl0HtLFcHsHkTTRq5V0wCgdDV+vO/eNC1KiogArtI7xUGXeAH3LOLcKpnfjkrsfY
+EW2cufesDfYEF9w44bvdmTz3NTO96Lb4LHZZD/RnfHVngVBpGxPqVGx3KeKuHiak
+e+8Q34AluLq/o6Zv5lbWVF7c+WMIdGKSL0zTIFRkYc9vRimMWuuGviPLA7StXn7D
+q0EDOonJFRyMAqW9v5bXUkNlOIMliE6vpAkY5S5OAcw2kR9eEg5MGU7yEgPwEh9u
+1d/mDUgDYECPv7sNus43Y1YvtMRCPIPvhGJCqY1fbTkwIQYHf3MlS4Hh77KzEMai
+FNvxMj69RdEMhOuaNmLVqz3iQRfI2318reoDSFty+9osZjBudNGNuR7lSlhVAe8W
+a51RI4pf1SACv2l1i5AVDLnqbam/1xSc3gcWRrAPNpOpBGDHvHEMfK2uDk9pmXMY
+7Z3rZuQooyiqPOEOo+qySUHiSIwoovjuu2Ga9LW/Ld3Siki/XwL90XbvwKCupIWL
+UBYpMTYCxi7R2G3I329ljC6TVmfgNGBVC3Qy5Lbp46/5NwyQjfTKdq9Wrw88R+cL
+DhU=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQHTANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkxNjEw
+MjYwN1oXDTI2MTIxNTEwMjYwN1owgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfDEzNjU5ODUwLTk5ZWYtNGU5Yi04
+MDk2LWU1MjNkZTExYzFhNzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AOJdS9VhRheDnvFyEms0i0weAjt68MbmsmwqoFuvrZMZAmc/wxcMED/EppUnoevm
+Qjmb/clwGH8KfbS8u0+w/cXZZ5aPcbMDDFzFPD3X/nJorLX3lpM3Y/XYAHb8P6Ob
+q1tsykfEjPXkc/8/ufIrLYJmMVpJOIjUW1Nt1EE56YkiNVrlm5O81yT+UWh4W8PN
+etEUWg4Vuurl5IMb4zjLlTDulPVxZcv+7fX0ZA+yjh5pNzuOvj6Tya9RpB8pl5qg
+BfV15RrTTdL/auWRiIHSeJS5Y6z2K0qmosZPrUpe+za0sW2F93iIBOe2fZSFmm+S
+Ek0GEUeIolclbj5uFr+3aY0CAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQAWGY7fBVVtUjaaQDz0BVfGR3rUGzt2mtx8n5TMRHxV2qw9GvQAVlV/wuLl
+Thg9I+KAjh6WFg2BYOWTVEIs1G5O189IT6dym8yh8dQTIvJQVayD1wZQw9b+Yukz
+ZLW+722XWqaFdihyewKh0Xb+Bh8HGuWJtmTw+7Q49IczkYyNmw==
+-----END CERTIFICATE-----
+
+[pid: 917|app: 0|req: 1/2] 172.17.0.2 () {34 vars in 480 bytes} [Wed Sep 16 18:26:06 2020] POST /pki/generate_cert => generated 4867 bytes in 1325 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e.req
+{'uid': '8dfce03d-5a42-46f3-abbe-103d07f51520', 'gid': '["hHMSy8lucV"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e.req -keyout /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|8dfce03d-5a42-46f3-abbe-103d07f51520"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+.............................+++
+....+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e.req -out /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|8dfce03d-5a42-46f3-abbe-103d07f51520
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_key.key -out /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: 1C EE E4 C9 AE 0F 08 55 78 25 E9 E1 46 3B 39 F3 0A 6D F4 3F 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIxYXrMvTKh7ICAggA
+MBQGCCqGSIb3DQMHBAg1xQg+btrWuASCBMhjrGIh0rrL6nkWjX0dc23Ri8BfEvAp
+hX9iH3NECdpG+H4dOWPLIW573Eu/FTulQSYXb7WV3yF/nkkO9xzXA/CbQAXDlHJ9
+9+pJ3rWZ3eCMalaNDH5AA6Wq+AnFfgz543N8nIFmQI2eMiEyjhTOspAc/vTPnANV
+qOyursrTWJUYR70O652+srV7M+q3oY4oQ7t/BYTDIZEKXogVqRetNkLhDYlBTN4X
+EKoEcZYzLsbOMETNMPxEEYu7j9jU8sC+Uxs0VVSuEZpkQl2PoX4r9N0uu94v55ds
+5fpaLFZpuUdqkmAaGJv9FA42GP4fB0FFTTtQZ6geIktP0zPAVUQ4dYmbJ2jUsAlp
+6UcXJ6TMQlCwPgUkI7WTKgTBSmRYgAKwwsbYOdKSrQQgHoJx1+Ztb2iiJUZfgTIH
+jqqEJ35pCyRTdx8kZiTUWJ4kLdDk0P9gVaR5Wphtht2U2NsHi2yGTCmubqxxydgP
+W0Dx+Qg4yqGITT+LDBiwS4iCTuci63ex3zTQTjPUNQj2p90B+GGApgbcLuefcs8H
+idhk32YEQbB+sLVyoJ049n6uQNCZxfgaW5nlQlF379DeFnL0qVmd3RrFCzSYBMl1
+52DUa3piStGZ183zIpGrIKqeWsXZmuTdvsOJoTjE9wnYiWEgDfZqL7UfG2zEWrSl
+IRP9UzxlaQdzQu6kaibS2JPA4SEBlaa8bLPU99W7Hcna0dx7M4l5+AYKFx6P+LGs
+t15RDtLkjjzQxB5DV18T2TtQSQYzispaa52xlbh7okmoxfAkximmnxXOdUZJUMRu
+osDLX20zCytOMjq7SiJoDr9sMZOERMuBitxlylcxWdjPjTw/zB8bKXTE2ixb4YgT
+4DLQhbzanUcerZNDu04s6eee68Gl2NMJQwiGy9Q3hRBmm0llx8whD25DZWzShoAc
+BTWoHXj+jJmSrxksBwR4bwsdqE9u3JYf1tKOzkuliQMy1cexw6DA0xPsTK8d4Rhs
+W0O9yH1XSo/pIBdocKIoummPF/2rB/mm9hjofjNVNqgiCVr/VCG8XPFbMVgx+3va
+U2UDQkL+l9gjEAVryCR9jkAs0Wf1EcS8L13QXZl1vJndvwA8Ma5Kzypu3qsMD4up
+jhJjLqpLdlDGSpsSoqEgbN1SdEYGQOPMixOzE83M/PbsfSSksY8BJIbNlCEhLNGD
+nqVN8nL3uWrQB32ecmUgz/oRVfZ7+ocAsVZDnZFOgBsbRSKbMCR633sVlwaDIZxA
+3gbLi1mE8LVCJutL1DM3hD5VbX/q4ZuKHgamLD+za9S3/D8Cs3VHTr9Ppp3sn8HO
+6YgEq2RZ1prOGrQDBn/F+qlwZrsHOom11VatbWEinqsNETqiQujRTpdB4yoVMFxM
+qR9xxkYT+CH9GsOn0ZRP54KMcaddXt80Hr/xPPYAoX7oMBp/dzzIb+TpuGqK2xDP
+RsFTrO3LhZn6k1ropRUHPubPkegCMdjC8YaegucbYENpmjvt/avocfigqxfdxfmA
+/Jg3S/wHBrfIh1kYZ9Q4upEti3NRx18Q+pcwVhrCZqL1T7n51t53gtHzH2usS2XJ
+C5tMRe9v5FYgV5q9ByDJmgY8u6dgkP4tgHXlzvhu0v5rFBItziptLFurhbwwZO99
+9aw=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQHjANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkxNjEw
+MzEyMFoXDTI2MTIxNTEwMzEyMFowgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfDhkZmNlMDNkLTVhNDItNDZmMy1h
+YmJlLTEwM2QwN2Y1MTUyMDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+APHrlIBGw6rO3rNOj6kWPa9f7OfQxWykEZA4xvxFyJOW11d1pl3eOOtiQjVO518l
+E5pPKkMU8ehEL8vI5MPkFW4MPTQY6NQ4j6t9wiPO7ZyERHOUeJU+oIGPV9Fsdvj+
+J1owtMTD33dWDe39LE9Sina9zX2MlF5ZmzZGDJqulwygXWFX1TOFmq7RtpW08bS6
++XA0a1vnYTJjeHU7cfB65VFV2B9VGNShzAXLShMcExo6Vg6LIyCrDGxKJ2udiPIy
+dyeDC4JgdBl08MWuHRqXGYo52BN+yKNWIQ2AeQYHOJ29peWnKQJs4jZXBvCSv+fT
+ck9rxcbhmUvmlkSChOjsOeECAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQAhl4avNAoDIk1S3u486g94dI0VkXcOHbFwszoFMxq2CzrsAFeqt761eFkR
+egmzuSUaQuoxYhjPrHD7qo9ldNXMmI+jBWSPBPiwr3GvXKkuqMh6L9E6Cm5G8UXA
+79LShR1uHTU7H8OUPWfDNxFCOE/agOfvRGlOIWcOo/8QogtYmQ==
+-----END CERTIFICATE-----
+
+[pid: 917|app: 0|req: 2/3] 172.17.0.2 () {34 vars in 480 bytes} [Wed Sep 16 18:31:20 2020] POST /pki/generate_cert => generated 4867 bytes in 1104 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f.req
+{'uid': '0a71f87c-4d83-407a-8b1f-408c9a79c06f', 'gid': '["qDT2P80vie"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f.req -keyout /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|0a71f87c-4d83-407a-8b1f-408c9a79c06f"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+............+++
+...........................+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f.req -out /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|0a71f87c-4d83-407a-8b1f-408c9a79c06f
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_key.key -out /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: 0B 62 1E B1 C9 27 C4 0D D3 A0 9A CF 41 B0 48 43 21 40 99 3B 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIt5oXv54FE/ECAggA
+MBQGCCqGSIb3DQMHBAiexFWVNcTvLgSCBMi+RTVYsht774rwnfd65Ly6LaWa+KFl
+esPO8lKB2Vt0NcYo38q/aUTrw8uKKoeZKDuKiP1+Mw3QAYYtobECxIQ4scrfH/Et
+sEH2sfOa288PGlutbdIL3HstV/lvRs5n5l8P8gPJYnp0zcANWEOdPXjq+XaYqyvn
+T9uwg6vvMCAPALbrLI1lSff9AC2Vousm+r54f2wHhiTjAsIUolV2BMP3iYcit8KW
+h7NlsoTWBaXtwOhCNSK1IoH8I2mvxxEBdFJe5toVOVJjnIeghhOJp/SjKg13Y4E9
+W+P+ydBUDKmEyjW9ovcmAP7vIk1fidd4h3sp1GW2kYtIMCrYudausc88vZw5nJCH
+V5JxSLpx2qdVjYCiq+b3jxSD496xNJZhrnK3b0VTUhS4okF1pw7a2sAK+tIB4Aok
+cLBnDGMLZOmsnPcEUkF3wxtB8nHNN85BaN9VJ2AfiXdcPs9JoRcCGI0oHr2empSv
+OyjtD5w8dht/JY4TYOjBPMd+syv7jedWyd8cim+J8Fde9UaWSvwniPauiNb0Obyb
+rBZX5jhKzOmfZ8PytQheZuz2KSacHOs/3XmG8wRzZ2AE98Uwxri8dZY9YQJgG1QE
+OWUEVZ1Xc8BZEPevsVSpfuEKMbgPR3Ogdy0+/Yop/lEYeLG/rMMel516ud/BBwdc
+VGo6LuHVjcE61ItNPlPd8t3xffXnNKtXvI+sGb7wWFMy9Q4qlJfk5261vva2cPrM
+cU7oYbDbEHzaGU0fbYaqXfs7ttOpsP3NZ3L1En9geSklgg89/GRKztTD81+g2XWX
+Yp7V64zP2J5iCF3v6DVvtiHRC86uxfDAJ61qLWmBOwMeYnBXEz7zHQt0AnD3PsXO
+T2p0PlrxmKPm6Joe8Y3buczvNKk5Fbpa4qVwHmVtslsHPlRKCeSL0tQatYVgB1Pt
+yy+UXS0D4Sa3Y5kyOmPuO/90ZAp1r6l55N4I5KX5LGKdydx3wgSA/2n3rW1INvq4
+KyL8oi4XsHfvc3zGn+XgPIUkhtfZiyYyf0wsETB/adxHG1kowNwkOM4sYylom0ih
+x8Kyuu0GWJc919jWG1W103RInZ5T+SgTHwzXMo+l4fH7jmwj1M2IZcUxjP8J0q7I
+xGhTHTHlmKiR/k7MLGL0j3yEeI5rajFIeGV0zkdCV9nPSCDpIWECfnADDa1iFX3c
+woLF0ZaqX5EYnAkcQ3W27Ab0gWvlXrNJAh7Vuy0ZdwtVtQScS9xgJ9AoDyddy351
+Ana2O0jnfePnvMa2DEUbIrhEAYJSmfVyPqrGRIt21y83o+12bDzm0PTZ3KS1dahY
+vVO7Qyqk4hxss6klNJnoR7nm7kn7L038C/tB/QnanYaHP2lS7l231qghd3YN0AIA
+6m0Yt9//EdpA0DHkn7rjhT8AK1Rc8PsmJp7TK27djNyLsH5bvKiVfCL8rIl6aFfC
+KB9nYTlC1OcvPabkB8L4z/d+FVD937D8vdPdJVVMLI9P10GjMu3TNxOmIXA571/q
+UGmHOk/1I9avmvbZtTEyxEEp5KGElM4WUdHAVzDyNZ/tl76kF9jElaasGtEqGGQ3
+hi7BrRhwFv/xpCz6ozv++5FPsIvK3uXBakbmHiYAkm8kfYxMJiB0UAc4blBbxfba
+XfA=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQHzANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkxNjEw
+MzMzNVoXDTI2MTIxNTEwMzMzNVowgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfDBhNzFmODdjLTRkODMtNDA3YS04
+YjFmLTQwOGM5YTc5YzA2ZjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+ALlm/puNqFProrWAwLsQ9nRLf5o/9i2hkEpKhtJAlmphJv9HXDBfFgvqDKKELUIb
+fyw8wQNSdjuD9/3jduFUlDV4pmWHSi0YBb8odVCdzZfbMFEQ7zvhmqO79a0sW7x0
+cxWA6EBChKGG2ryyaOsiY+KETDDHO5g5lahjKfjJuIuIy70dLi28X5pEDgJRp4XC
+HnJOHfhdyR6fKpszfRyp7SpSFzk5dwVISV8AT9HuoLb6c7fHGVBTylAxRx/nZSMV
+JuBedt/cd8Sk/LgLp/G5cHIcgVsDCDZKE6ud3WEFBJKlnGrgt9FgWTq83mfD5xsL
+rJAx0+O4jdyXDOBS4dWQp/sCAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQCdbbqch/wDmWFPyNF/TTIaspRHE40oolT09ZCc9qtASXt5a8gtnMqUfni3
+LKxTeMIr9NgFj5RIw9gjiuO9ZgHBmWtzA6k+GCsNiZhxmh6cxgMIELVozt7ls1Bq
+R6jHpgc0cJfpjx73xHdOvLteo3UwPMzzn7YZlCzXxcP2dV58gw==
+-----END CERTIFICATE-----
+
+[pid: 917|app: 0|req: 3/4] 172.17.0.2 () {34 vars in 480 bytes} [Wed Sep 16 18:33:35 2020] POST /pki/generate_cert => generated 4867 bytes in 1114 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+Running command: openssl ca -revoke /usr/java/beiyun/pki_services/ssl_crts/1010101d/1010101d_cert.pem -keyfile /usr/java/beiyun/pki_services/ca_cert/ca.key -cert /usr/java/beiyun/pki_services/ca_cert/ca.pem -config /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+执行输出: 
+错误输出: Using configuration from /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+Adding Entry with serial number 1010101D to DB for /C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|13659850-99ef-4e9b-8096-e523de11c1a7
+Revoking Certificate 1010101D.
+Data Base Updated
+
+
+
+[pid: 917|app: 0|req: 4/5] 172.17.0.2 () {34 vars in 475 bytes} [Wed Sep 16 18:53:18 2020] POST /pki/revoke_cert => generated 42 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+/usr/local/lib64/python3.6/site-packages/cryptography/hazmat/bindings/openssl/binding.py:177: CryptographyDeprecationWarning: OpenSSL version 1.0.2 is no longer supported by the OpenSSL project, please upgrade. The next version of cryptography will drop support for it.
+  utils.CryptographyDeprecationWarning,
+Running command: openssl ca -revoke /usr/java/beiyun/pki_services/ssl_crts/1010101e/1010101e_cert.pem -keyfile /usr/java/beiyun/pki_services/ca_cert/ca.key -cert /usr/java/beiyun/pki_services/ca_cert/ca.pem -config /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+执行输出: 
+错误输出: Using configuration from /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+ERROR:name does not match /C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|8dfce03d-5a42-46f3-abbe-103d07f51520
+
+
+
+[pid: 916|app: 0|req: 1/6] 172.17.0.2 () {34 vars in 475 bytes} [Wed Sep 16 18:53:21 2020] POST /pki/revoke_cert => generated 42 bytes in 73 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Running command: openssl ca -revoke /usr/java/beiyun/pki_services/ssl_crts/1010101f/1010101f_cert.pem -keyfile /usr/java/beiyun/pki_services/ca_cert/ca.key -cert /usr/java/beiyun/pki_services/ca_cert/ca.pem -config /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+执行输出: 
+错误输出: Using configuration from /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+Adding Entry with serial number 1010101F to DB for /C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|0a71f87c-4d83-407a-8b1f-408c9a79c06f
+Revoking Certificate 1010101F.
+Data Base Updated
+
+
+
+[pid: 917|app: 0|req: 5/7] 172.17.0.2 () {34 vars in 475 bytes} [Wed Sep 16 18:53:26 2020] POST /pki/revoke_cert => generated 42 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/10101020/10101020.req
+{'uid': 'd3487034-57ab-41f5-a8c2-2266c427b4b3', 'gid': '["22mtgIJSiS"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020.req -keyout /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|d3487034-57ab-41f5-a8c2-2266c427b4b3"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+..................................................................+++
+..................+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020.req -out /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|d3487034-57ab-41f5-a8c2-2266c427b4b3
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_key.key -out /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: 48 44 32 DA 64 79 20 65 97 13 10 F6 01 A2 74 9B 43 A9 12 4B 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQI6FNNbCSdTv8CAggA
+MBQGCCqGSIb3DQMHBAh+WXGjx2k5OASCBMjC/thLyP3AvrietoiO5ec90v3CSc5d
+iWwWC2qaMrCLoH0gLxIV20x2LViZ830iA3oQ54MICX4Ffja7MnKTjU50Tf/BfMld
+TAOlShj/gEpYaivV8peeffLutKM5PZxYmFya6VF/b8U+niwaVEV+1TK4JzYbm/i8
+1hPpA4IxYAz+LpIDhVBShtvStzVrSrjr4esm+4PzH3eYoaR6zxJ6dRblZsCj+dW/
+rM7cLoI4UnqQptAEnG6UPmNJ4CaXd2HFE71mOZKx5KKhbFVpx62Na2kF3klh7ISc
+UBDhMyTcdMGlOiWS346AY8nC3s0ODr2r9F9JrrFkc0a7+5ac+Kzlu75i6EJ3gFVE
+8TibToryEU3P6EwhUG1TY1jEPzA0runGUPlenSfqyr+9x39fSWejZ759F+ygj/WF
+LfkT8u/wYJQxvIaNzuan/2Tr1ww/qYPzjSu6QhWNPk9DSB10/JwVxWAXDgDwEHf7
+kGpxchKYox1MTwYVfcUoiSwziyfMfJ7lWjWx4492nBMchVqHj5/Uv8T238ITUyyQ
+1GAkJfiAn/gBev+O3IMds+BBHoPPMj11m7CzPcnbCcDLvKs7mkQm0mRfsPqkJKGK
+RB9jjQrp9NkHFbPbYDcSpFha7XB7s0nlPig3uoC4jfQvhSSHPW7JcN1QOaonCim6
+SMpS7HlLZvnRTxVH91jiByJZsRsGpL5/zTN329/MOnsKnJPLoS9u+SJ5IFNQp0Qi
+q1RA2eCecQw1h5eVohYLguJ6SBuvTRMRWwnALxAZ7bH60i5nHBOQEO4U36eA7K9x
+yJgkTPFpjjuoRlDJpFCZ1D6Abf5HP768TzcGSFHVc76T7xEjfmWoDl1VlmUX0qaB
+0n9CbhZ2tb2hchK4FKrh7aZY4wf9t8HipmZooWpj8sDPQcpDhxben1j5/1PoktAW
++nxASKn5p8oX7326F8qHHyzr1efEY0HpybXZcc6PdEcpkRoNWswG9/R92ylO5K87
+BlZyKrQ56PPJRqGBE/zmPby3ebeluw4eVH2rSDHsqTemBwhCgJkJwDkyu3CkSr+X
+YP70qYi77phWxSSe9smVN2xC1X/ZzJaDGwUPVORPhtDclc79eL17jb4mJIPDg6d5
+ZSYG8B2iek84fW4mtfYIvPyAEh6mNL7oT58l8eaWOkyfkJS+X6sQwiIg/U0CJ0ak
+xQRJ0PIbrAMc3q4F7GToGTRixyiHanWHQQD7iG8nPbS3+ycurlg+u4aEKnFoC57a
+MG6QCCUWuE2ZDiCkVS4xe0UdW1Ao1V27rHt8if+JxuGUShf8FV5Nr+z/8CzJnQ1J
+GtPpqDKPsbU+wWhrQLY4gOdbKW6mxqS3CxLv1eNz7sLWoufWvwqooH3mruWM4pWK
+Q7GskbU+1jYIKtb98ZQNCTYJvRDK8Z/0sHgstza72Xnq/ADaYCm8U+cvXYPTFXSD
+xdLH4f9tcBB2RTfVW6BeGed0Z9VYdaFexMA+TRlujAcIXTPOZvZg1ze47f4n0NKW
+tqKTr96ITfcB9EuoHG3wL00rB2ulhkLledGvNKJwhCzS8J4qFr+spT60T6UouaLG
+Fp5zTmhLBva3B2+B5zqSFq1Mn26bZE+r1zFFJlPQHMHtEif9AIKNrpjMlSIQbFJA
+JKg=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQIDANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkxNjEw
+NTQwNVoXDTI2MTIxNTEwNTQwNVowgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfGQzNDg3MDM0LTU3YWItNDFmNS1h
+OGMyLTIyNjZjNDI3YjRiMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AMQbjfiZkzSf0xc9gSNKVt+lL2g0BTROrz3yXnEdpfXZnYphTMeQhH/AAVmcT8Az
+IZhjgstsdDxbvVsUMh7NrlSYfIImoOssLb7r3xJBCH+zRQ8b5Xdj7LHCDCLNQ0D5
+mTAAseZ1fJmj4LO3ZWdNW0kYVApV99zNz8Vn5R1XDoxTShQX80KVN7ao1ofyn/VH
+VHyY0VsIrBmA+NdjuUGwBFU1OD/CZ97QpLgB+sznX6QGIasPrC+QBvW6+XYSTDHM
+oVCC7CSy9GxayDFnKIC6Dw4RO68T6Ae8r3GRSyit0vAZA5wIoWxJU5Z/Nq8t/rEq
+h4oZ0/qu7qzxuPgzcuDqsr0CAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQCTh3yvMJL2up5GFfbv3m9g2LBa3bjFZKXfT1n+GHE3DJMQIJQz2d/cE2bQ
+Jk+07+iFAqpXeynZ1eWOQTHtzcnjYHUyjd3AyxvaSDxInC+0WEs7DrTORbLF208I
+zbMrkysl9UKbQd4wkjeNr6d5dnqv2eMOxPgXVvslFj/Im0nLCA==
+-----END CERTIFICATE-----
+
+[pid: 917|app: 0|req: 6/8] 172.17.0.2 () {34 vars in 480 bytes} [Wed Sep 16 18:54:05 2020] POST /pki/generate_cert => generated 4867 bytes in 1185 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/10101021/10101021.req
+{'uid': 'f5b67fef-c812-4922-91e3-ae031ca6b009', 'gid': '["JJmjHV90p9"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021.req -keyout /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|f5b67fef-c812-4922-91e3-ae031ca6b009"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+..........+++
+..+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021.req -out /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|f5b67fef-c812-4922-91e3-ae031ca6b009
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_key.key -out /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: CF A8 A7 9B E5 43 19 3E AA E8 D8 51 51 78 6F CF AF 95 AE 48 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIHdgKgKW7v+cCAggA
+MBQGCCqGSIb3DQMHBAi5YuWEKmatMwSCBMh97uDD5iU2+45JJsi+QByrjOny2wMA
+OM5jqYnRd14VBWpzM+UWMab00mUEMBKQ8zZjhCSYZKvopiylqJAIRfysqOCSLxb9
+H3v29vjm8UP0PPit58WqWywhlG6NPML/YZoIFbEwPqcCt33xjJNvvgoPRRm32tGZ
+lGSu/a45VJ0531oTmGjgKogsfv2Gdh6wgSqYmSve22JjxjdYSWluM0tYnly/kXbn
+qsWL3KHTkk3vsSxikf6gZVFgH9bNilB1v8Bk5ZgmGG540UQGudD5udEX/5DT9tTB
+G0S+Ksi1RfcD3d6NI+5IhNFICKLvajNa3no4TKKjuSUq2SiMSginOb3HFRNTcoXJ
+3bnuxYcynglIBarWx40SD0uj6bFwkojfJrqPoeRSavdNGm05ol+6XithgwzKt34x
+GPDdWob12UMifXOu7bmUU7yJP3Y3A6DJu9qmPRT2wx78brE2TpP3MWdHzFmNPQ8J
+JK3yiuJIdiNb61khthgq4ew5VD+kDhQoXbpffLQXY5xHO7Rp5Rutf041UQJ8b/Ax
+g9Lx35pAG/e6ECZObuqSOPT3FboK7eWdl4V2bRCd9+5E2pzTquhaMFWmOmObdTIw
+1ag3mzZV2zzBPhWFaQocCiL703P1U3o2NrZjuRYjMB7FSxOfqIaLVDB/tzep5pwB
+spH4ks+VRm3TtM6J9nXP1qsPNM1N8+K+Ky3XiDuc/dL6xrDt7ihS2eiLqyWNpV6K
+oByZG+17Q8Lr7F0wuiJHA+Jde3+gGJ6sG2naDLZcjOzx/H0nqf/XnXbWgvkLsaW5
+md6ZUuk7wg2QYGP0dFdTXFYUlW9jxM0zmbGwpMNphOkzklEuWqCdvqqb1ImABF5X
+CboDJ0++or3VH676+m20ABBzMsHtJb7Dvw08xmrZxKQ2B2xnlbcZeOzK44gqXd/c
+h5NsKs9bm5yz1jgzwF8nw9qzpDOsUIMvW+raR/KyBKvyOKvqt0wrpPZrHpxEulBu
+29cVSA++b+YYP7YID1ciM6LZGMvPdE3Ma0gfCqwnRmsFemINSEdMHuPMmJa2XQE4
+PWo0pYj+g6YbS7Yu8ADxB0Xrqb8mH7RS6F63Hmj+ckh55LAKMp44dBG5Z9Kdki6d
+rt2/rbu0TiKegUu0duGPFSBG2vB3XkfpZC5GRm7LnzjbRt1afgLNBGE/g+gpXb0H
+4R2rzKaOM1Tn5nLbAb3TjT+ZMzlSlUj+qmk9GXk1+XpmPcDW/69COnVav/xKUlPH
+5iBCeIhjGrf4TF4B4ybytr0U2jGFAx6wrOdEiFGJxrh4/sBCvI/GeMfZnDfu0CYW
+0a61WQMNoPYC9z2NuSInpv0YKcmXZ/fizqZFHNoIxCPA2+CA9I+VDF3zwvp5cHaJ
+TwnEzvEYNv8Bmb6m+6xSy8/txORc5aW6bjASLToMWsfJQ9BX8ENzYvYQV/LH8IHK
+Mk4SvdtWBRcrlYXZN8AHCOKMjb+bsFAJNaOhoM0ZHBaNU+K3HxskcC/nFSlNf4jI
+UO4BSDF/zL1JbZCrVlVIX2CcQPERBbwy/3Se4OFU5PyWvZ8umMVc19j5beAkjkVf
+3jiD4XdkBK2o5QmTWt41JPEMrCCSi2zwYzKSKooq/dmxVLR10AzB3lCKsZpekM9I
+//c=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQITANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkxNjEw
+NTkxOVoXDTI2MTIxNTEwNTkxOVowgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfGY1YjY3ZmVmLWM4MTItNDkyMi05
+MWUzLWFlMDMxY2E2YjAwOTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AL6O6SJ06xfi2N8Be40Adf20CfPCoNaUNaKxZHzqaUhnSye/eA9PfW/C1m0DZmry
+lVxWAJyn/mdf6OPmLz20FKe5eOuAm5qfVtqZDqHBMOJb/QzFHuIif2BpxKr+8IPE
+QhaQQAbrzINMTocG8+u7DBb4xBECeWsF6KP431vWxZdqF28AUnrXOPUmj4pL9T1A
+Q83UcrkCeNNE4YxifukS0aGXAP7m4iKgR7xEpfKx8wjn359p4p8tDe5c+XvIN23Q
+Tte/2FXmf2HDe2hi9ppTPD9TV6dF4H4kTrVgte26X2qATajlm8yM3+KwjzmjWRS9
+4nmR9VjpQlwD6/DRpce8Sx8CAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQBbZ7mnAucjAtr8CLirFrOsJl/wq4TmHYeE8iAABGhsn9GFCemvHKnb3iZc
+NdH6MekzxVwgEKFMRiZmg3v6da0x4cCoD/qtHki9EuEG/Nj3QwDTja/IABIqVgPk
+kzr9bs3Lxb5q0biJOKyrdU2z5Hh+EJH9gfOqs9ycvCsujb/Kew==
+-----END CERTIFICATE-----
+
+[pid: 916|app: 0|req: 2/9] 172.17.0.2 () {34 vars in 480 bytes} [Wed Sep 16 18:59:19 2020] POST /pki/generate_cert => generated 4867 bytes in 1076 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+Running command: openssl ca -revoke /usr/java/beiyun/pki_services/ssl_crts/10101020/10101020_cert.pem -keyfile /usr/java/beiyun/pki_services/ca_cert/ca.key -cert /usr/java/beiyun/pki_services/ca_cert/ca.pem -config /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+执行输出: 
+错误输出: Using configuration from /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+Adding Entry with serial number 10101020 to DB for /C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|d3487034-57ab-41f5-a8c2-2266c427b4b3
+Revoking Certificate 10101020.
+Data Base Updated
+
+
+
+[pid: 916|app: 0|req: 3/10] 172.17.0.2 () {34 vars in 474 bytes} [Wed Sep 16 19:02:01 2020] POST /pki/revoke_cert => generated 42 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Running command: openssl ca -revoke /usr/java/beiyun/pki_services/ssl_crts/10101021/10101021_cert.pem -keyfile /usr/java/beiyun/pki_services/ca_cert/ca.key -cert /usr/java/beiyun/pki_services/ca_cert/ca.pem -config /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+执行输出: 
+错误输出: Using configuration from /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+ERROR:name does not match /C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|f5b67fef-c812-4922-91e3-ae031ca6b009
+
+
+
+[pid: 917|app: 0|req: 7/11] 172.17.0.2 () {34 vars in 475 bytes} [Wed Sep 16 19:02:05 2020] POST /pki/revoke_cert => generated 42 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/10101022/10101022.req
+{'uid': '45b7e758-bc36-4153-90cc-b702381ee38d', 'gid': '["dv9Z31aQyE"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022.req -keyout /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|45b7e758-bc36-4153-90cc-b702381ee38d"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+...................+++
+................................+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022.req -out /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|45b7e758-bc36-4153-90cc-b702381ee38d
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_key.key -out /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: 2E 37 AE B1 6C 45 70 17 88 56 18 13 FA A7 C7 46 12 96 24 D8 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIwfcEnSvPIEoCAggA
+MBQGCCqGSIb3DQMHBAhEUvVzlISCpASCBMiOBzgGM9QpHKgDUYLUTWf8tBI8gaV7
+fswcP5SgU2XEhRjJf9uwma5R38WoAYo6LpxHJY1pC8URz+2OHX8oNshcO+cqqP6O
+iJWdxbnDelYcwQEVeYVkD6JSiPxcYBxfb4BBG/vPJ+IcalMaWD1e206gcFDSC0SB
+2Yt9MexmGDtIvBPpTpNzAMRGwK4BzTTKyVmMn6cIF3iPEWu+3iS4b/rmeo/luRs6
+DGQml1PeiRi2le9tWGBzP+ruy7zx3VDg2V+iQ0z0/JNMIbOudrToc9VSVVKIib9B
+6ULhw60++gKb3Eatqc51ndw7MtKWtnYcBu2M9t+CU9yCdy20Igl5nJrr+gaSFs7j
+0t5sCMJQAxtU47sFhMy952HmNpWHiGiIQhAtJEnQdZ1kKmmWkF57fvPVClsesmuZ
+CbNN0jmTcN/aXmncmi/KNjm6xN8EgBo8XgEY9FhisSEh8GEklST2KBAsWnnMoLmc
+yssvXHK3f9AYXJCY0G5+NXue/LkQhmnNcqVkcRE+ea0d5NtF3mzkqP56gNhDTCV6
+9MyK6I+kL6s3NzYrN99Lu0aTAXycLjykJ2hCupFpHUg5M/Tux/1fXx+a6Cagw1ly
+tLD6R/zo9OhSgIQjYQvL9CTjO3espsQDd1//jH6GHpyr7LFQMY6j7hpTD+MenKap
+pKL1LkqffyF8ppAbSapNbeHV5LexXEALukDKhAb7Q2ys73G/qjLGFgzMuM6VZQTX
+4rJBfoZ8t8vKd5E0206ZyqiKinabrGF15+o30aXCCxSPdvHa7x4+Du6Yq4NqpI1W
+ukw07hm7NhTv3X9bsIGXWtXJnadesl2nQm/Iu1vZ6sdv9e82q8nSwdKiCfWauV9j
+ztMAP5hvlKv/j5Dd5lfl2Wg6yIfjEZeZidSQqJkbescaEA8sfsFO/aLgJNviLIVf
+HUtD7OHAXgnh/a1DmNvVA/WhFzVvzW66j4NaPLgh3N6f/69kzlhvNqfnnjwtq6BA
+kfB4Pf6jQRKbCmHRn+Vp6JwFqVpWJ9b8SvytD/JDDS91AaevwI0oZq8zLJT18VVv
+YYG3XwXPlR+HWcNIYfR02guU9z+uKELkfQptgBTxd4CxrspGyrhu2R854PTadfhv
+YE622b3Cqyew8ofngy1TPMI9Q8BmtJGP6EDJHufhWPfw/WH8ES0zhcrvyngTXIzG
+maNFTFI68gAudFWfOnvrMz/H+o9pYz/0fSJHiMzhSwayQFx3auFM7yvpaEI8f67y
+SUci0/ou4VGqFvgUUZNTZoIhHdauuASY9l4g9/NoBMdP7M1Wg/6yAzfaNTRqRPEm
++snH6aHzuEoiOJEW0nmsv9RQbY4Dq2fGE8JmV/VTkJnEHzTtZJUuhOXjqpmF6nTb
+I0OjTKJmOdFLFo6x6ao/AqPqyi5dn8pyZCMOJ6hjlbiuiCnqIavMThZZNzX+m9um
+PXqZgpFEwrOtjjRo8FLXqYET9LlAHtOgtmkF9xcrjcQ2ffwDEfgtElU2lD/b9y0m
+PODgpyj58WPLGgiOTt+262CvIutvxwPvIgvcLuQ7pC7lM5TMD/mzTFBIvbB2liam
+2FvwxImwvc8/z486++SI1CnyvJJw+zjGedMG6jnrtj6q0EwU+hVhHHgpCcA54C7A
+SD4=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQIjANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkxNjEx
+MDI0MloXDTI2MTIxNTExMDI0MlowgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfDQ1YjdlNzU4LWJjMzYtNDE1My05
+MGNjLWI3MDIzODFlZTM4ZDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+APamxHjpSzeHf/iqktR31IRV80iaxr0xN3FPqjBo7xXV3DLkvsZn9QDXxY5SdDJ6
+SgmojZsiKrzflwShXV+V+MiIifKr2pu5QtK9bAPbk0YhSSpm3EiHmfxARZj0I0iL
+mGgsSu3+kI1ayVLDu3l/fBwKnH9rA0PeVjDzMR++eYSZDVRNo81x9j6BOfA2t+E9
+RyWzl0bvHPiyIcjAM8hxJTn/KrtOTHgUv8ZMD9ycig8ApvVT0jnI6PI7s9Lr/OXe
+JC+kyK6MH4Q6DyrnkEjpY4n1BV3MNakiHBfkoIS3zo4KNjfooN1uLK7HUftPol/g
+UZZHUbuKEbR5QH7BDGwZWBsCAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQB67zAI06ABRpE7DGnupzzL9Qv5xmUmXsiMKxfXPkWOhdlhMg/F/I09i8bn
+J+xrpX0uqYjgjCiK7wqiIEUV7yJqSwdQkekygx/pli6+kRTi9IFcrRbqO/1Pt7/H
+JiQ9FLsinD9MhNpbKQDRuZHKwPqyYiCQwy7rWhBG9M2Cdsf94w==
+-----END CERTIFICATE-----
+
+[pid: 916|app: 0|req: 4/12] 172.17.0.2 () {34 vars in 479 bytes} [Wed Sep 16 19:02:42 2020] POST /pki/generate_cert => generated 4867 bytes in 1133 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+Running command: openssl ca -revoke /usr/java/beiyun/pki_services/ssl_crts/10101022/10101022_cert.pem -keyfile /usr/java/beiyun/pki_services/ca_cert/ca.key -cert /usr/java/beiyun/pki_services/ca_cert/ca.pem -config /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+执行输出: 
+错误输出: Using configuration from /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+Adding Entry with serial number 10101022 to DB for /C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|45b7e758-bc36-4153-90cc-b702381ee38d
+Revoking Certificate 10101022.
+Data Base Updated
+
+
+
+[pid: 917|app: 0|req: 8/13] 172.17.0.2 () {34 vars in 475 bytes} [Wed Sep 16 19:41:43 2020] POST /pki/revoke_cert => generated 42 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/10101023/10101023.req
+{'uid': 'fb21675b-eae4-4a7b-b9b7-13b5fe083146', 'gid': '["b0fWfRIrTW"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023.req -keyout /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|fb21675b-eae4-4a7b-b9b7-13b5fe083146"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+........+++
+.........+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/10101023/10101023_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023.req -out /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|fb21675b-eae4-4a7b-b9b7-13b5fe083146
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023_key.key -out /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/10101023/10101023_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: 0E E1 F2 10 F7 CA C4 15 43 F2 F6 BB 4B 6B CF B2 7A 53 39 48 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIcLg201ogfPYCAggA
+MBQGCCqGSIb3DQMHBAgkt5wkC/J9agSCBMhVYD1+1CQQSEPYt90rV27pUZa0Xi2M
+bWCe+1JjEylUsftdzADa/qgoSpqlWvbbdRjWkHmpqP28ZNfUYyJ6jzGK+DWRTN2E
+qDU9ase1jAXLiX+jjELRjlWy4xWmWviDgckuIXB0tzjnF1di3XNmhnRE0e0EWj2y
+nwkwUz777P/oZ3JevqmZL8hU1rfF69FOnhl1NN5Llgz6jkv/exdESyRVDuxZ2v7i
+HLtlaLwlhAgAOCek8F+TvKBHw/tMsET9h4QKYl/XMzQLq8Oo/LiQYrRyJH5yJhCi
+a5b74O8eqysHCLMNlvVJ3a1wmoimFkqFEzpJE+NiRfHwf0J5fe1MQTHp+a6v08O5
+8Tr2CvrD2NBEf4R17XjwkyowZdnRqmp9LnY8Hf1R7/d3VHBi6b38uKE7jnWdacZS
+zMSuL2WV0BUEA+/EVcvCU+7uaPFamIahgFDPn7yrdxkqM2MZjwzsACBavpxetAo5
+J39m+PPGH9tanC9eFEhZ20eX18wEKald7jH2CXnPq5YZSyoNDc/ewcOr6TJ48uya
+9zESqMo1iU2XaDk9+ei/OREEjbnyylIOb1so0Vxn+/6GstGg/Yv2G9g/NnqqsyHp
++sJAeRfqnPVWASCX2pDHwceko9cJr3A3w5q2w2aHtD8kPMfPAZzEwZRqXyT6Sb0z
+wPVV03SL93WYbkrg+/pel5eXu03Nd0/VbXrX4vHxBGy2GZcI0JhrUdN5RT04IT7D
+6KR4aQmBIbhuCgTHvx8aqg7zGlOhaCfCMhNk6H9P8GeQw0AEGak3asMutQYDNxs4
+8IlXH6YVBf2qjYTmBxav64PSOE2fXRzcIA3WQCoALh3e8MPd4rfMVIe1TBwP0UiF
+02LB8TeLXjHI22jKH2xb8BXtcVTNbZFcrDzx7rR9FiRb4Mq0SdM5P4FhQxIOItYP
+/Pv6xh+tlTVlmE5iuI/lqhpJVKXp9Se+D0rPmBSLenbkj9oOBGIxwjna4iyVoOPl
+ooOGuLH4fVOcZeqfpXAWxVa5FEGzkwMFxOOyUOOKedgOjQPhLV2O05QyqB+ukPJI
+8CKI/Hzcq8wYABdjH5DFwHS4v3ng/q5QnnvP7V4K3T1nsqUpkEaDQ91kFmjys02C
+Zfc0m/CCCGccGmfXIrgTFjZt1PrrU0oN9Tb8eoDcYIjKUZ5ccyr0kiTofpA3uyf9
+GWdw49Sw8BizWBS0QbmVpaSPc5teRpkJP2etlFq2+FaFs3K2PgVaiU8FB6psVqYH
+GMZg0bQOwBUI9x8gYBc8mYRXtFAsJzUbzEDfQC+7sgiFQtsJIklqX0g+8O/RlMR1
+DNrbtV7pFWJMcaz3Qg0dyVenDYAAfkYq+Z3J5OkwJlqu7FnVOsjBrJ7K9OMPObdq
+pnCGz2D02GjTo/fNyko1fpjmsDuXuh+t+5aAowmGfhcSSdP2KTlcgNhHOh4nKgM2
+Xtv7RFzv/8bRQzIGxt8aX0/DCkiT93Dl6FkRqIqQglM5TDSfoEUtHezxaLPtf4vL
+7A+Do+tgc7gjDrVmoIBVd13zaiZY3UcPUX7e9WihPkuNuu1IfdWcMFNW6TVi45ge
+F1EPiAoPg62Qeo7RJ5RVuyHVkO8ac9nxWLWyIEcDL5xEliI0luqEi0LcMaEPA4K2
+jF4=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQIzANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkxNjEx
+NDI0MFoXDTI2MTIxNTExNDI0MFowgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfGZiMjE2NzViLWVhZTQtNGE3Yi1i
+OWI3LTEzYjVmZTA4MzE0NjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AL2UKsQMCKC5VhtxwOhk7EJsu5HnWvoizUWnzZ7nFHQt0Ow4HcIPNMrU8k4UBBeE
+dEfFTr+NRnZl3dPqoh5LI1VwW5OsflQ9DQGQIwzQr0IbOEZCTpgNlWRxeE3fSyzV
+olr5eaxzpfklyosWVibKi5J+ItrxHY29CJOrrYnPS3p8B3LR5u4M7MoMz+HKTjBE
+NSpwysafKRLrpdG4V/J7A335/gtoEiilJ+0N4VE74NajmWBmBSWbWCuIHfnrgnwN
+EKFSRymttCOulvGUuC0FrXfVBAPny9bRGgElE5wAMhrjTPMvmqC3LqcbX6lGhAO+
+zDGDbsKdaW0sdsmmJLg/5mkCAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQCWaaYLUWhu+8xD/RT//bSpNhS9puSq2OhZ4AzKkQafemMNykGbWHDPAZtz
+fhrr5qj03Twyx/uIm3/mnY6MHvL0iNOQYjbc/trCyA8bEww9W8bxytmUCepFc0DG
+3FfXBiQWURNQa8FK2PzfXUf93sSimiUCfR0SHg5WV9iR9pb3uw==
+-----END CERTIFICATE-----
+
+[pid: 917|app: 0|req: 9/14] 172.17.0.2 () {34 vars in 480 bytes} [Wed Sep 16 19:42:40 2020] POST /pki/generate_cert => generated 4867 bytes in 1079 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Sep 17 09:58:03 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 16 September 2020 09:48:35
+os: Linux-4.19.90-vhulk2001.1.0.0026.ns7.15.aarch64 #1 SMP Sun Apr 19 22:34:29 CST 2020
+nodename: kylin-181
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 65535
+your memory page size is 65536 bytes
+detected max file descriptor number: 65536
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.31.181:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37377 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x38cbdc30
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x38cbdc30 pid: 18980 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18980)
+spawned uWSGI worker 1 (pid: 18982, cores: 1)
+spawned uWSGI worker 2 (pid: 18983, cores: 1)
+spawned uWSGI worker 3 (pid: 18984, cores: 1)
+spawned uWSGI worker 4 (pid: 18985, cores: 1)
+spawned uWSGI worker 5 (pid: 18986, cores: 1)
+spawned uWSGI http 1 (pid: 18987)
+Internal Server Error: /pki/generate_cert
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./pki_services/urls.py", line 21, in <module>
+    from api import views as api_views
+  File "./api/views.py", line 11, in <module>
+    from utils.decorator import qd_compose, qd_validator, qd_http_response
+  File "./utils/decorator.py", line 6, in <module>
+    from django.utils.decorators import available_attrs
+ImportError: cannot import name 'available_attrs'
+[pid: 18986|app: 0|req: 1/1] 172.17.0.9 () {34 vars in 479 bytes} [Thu Sep 17 15:11:06 2020] POST /pki/generate_cert => generated 145191 bytes in 147 msecs (HTTP/1.1 500) 3 headers in 126 bytes (1 switches on core 0)
+Internal Server Error: /pki/generate_cert
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./pki_services/urls.py", line 21, in <module>
+    from api import views as api_views
+  File "./api/views.py", line 11, in <module>
+    from utils.decorator import qd_compose, qd_validator, qd_http_response
+  File "./utils/decorator.py", line 6, in <module>
+    from django.utils.decorators import available_attrs
+ImportError: cannot import name 'available_attrs'
+[pid: 18985|app: 0|req: 1/2] 172.17.0.9 () {34 vars in 480 bytes} [Thu Sep 17 15:46:07 2020] POST /pki/generate_cert => generated 145192 bytes in 143 msecs (HTTP/1.1 500) 3 headers in 126 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Sep 17 19:41:04 2020] ***
+compiled with version: 4.8.5 20150623 (NeoKylin 4.8.5-36) on 17 September 2020 11:39:45
+os: Linux-4.19.90-11.ky10.aarch64 #1 SMP Sat May 23 11:36:32 CST 2020
+nodename: kylin-182
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 258306
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Sep 18 14:32:25 2020] ***
+compiled with version: 4.8.5 20150623 (NeoKylin 4.8.5-36) on 17 September 2020 11:39:45
+os: Linux-4.19.90-11.ky10.aarch64 #1 SMP Sat May 23 11:36:32 CST 2020
+nodename: kylin-182
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 258306
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Sep 18 14:33:09 2020] ***
+compiled with version: 4.8.5 20150623 (NeoKylin 4.8.5-36) on 17 September 2020 11:39:45
+os: Linux-4.19.90-11.ky10.aarch64 #1 SMP Sat May 23 11:36:32 CST 2020
+nodename: kylin-182
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 258306
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.31.182:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38427 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x97edbd0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x97edbd0 pid: 22064 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22064)
+spawned uWSGI worker 1 (pid: 22066, cores: 1)
+spawned uWSGI worker 2 (pid: 22067, cores: 1)
+spawned uWSGI worker 3 (pid: 22068, cores: 1)
+spawned uWSGI worker 4 (pid: 22069, cores: 1)
+spawned uWSGI worker 5 (pid: 22070, cores: 1)
+spawned uWSGI http 1 (pid: 22071)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./pki_services/urls.py", line 21, in <module>
+    from api import views as api_views
+  File "./api/views.py", line 11, in <module>
+    from utils.decorator import qd_compose, qd_validator, qd_http_response
+  File "./utils/decorator.py", line 6, in <module>
+    from django.utils.decorators import available_attrs
+ImportError: cannot import name 'available_attrs'
+[pid: 22070|app: 0|req: 1/1] 192.168.31.19 () {38 vars in 736 bytes} [Fri Sep 18 14:33:22 2020] GET / => generated 133343 bytes in 146 msecs (HTTP/1.1 500) 6 headers in 187 bytes (1 switches on core 0)
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./pki_services/urls.py", line 21, in <module>
+    from api import views as api_views
+  File "./api/views.py", line 11, in <module>
+    from utils.decorator import qd_compose, qd_validator, qd_http_response
+  File "./utils/decorator.py", line 6, in <module>
+    from django.utils.decorators import available_attrs
+ImportError: cannot import name 'available_attrs'
+[pid: 22070|app: 0|req: 2/2] 192.168.31.19 () {36 vars in 664 bytes} [Fri Sep 18 14:33:22 2020] GET /favicon.ico => generated 145378 bytes in 87 msecs (HTTP/1.1 500) 3 headers in 126 bytes (1 switches on core 0)
+Internal Server Error: /pki/generate_cert
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./pki_services/urls.py", line 21, in <module>
+    from api import views as api_views
+  File "./api/views.py", line 11, in <module>
+    from utils.decorator import qd_compose, qd_validator, qd_http_response
+  File "./utils/decorator.py", line 6, in <module>
+    from django.utils.decorators import available_attrs
+ImportError: cannot import name 'available_attrs'
+[pid: 22070|app: 0|req: 3/3] 172.17.0.7 () {34 vars in 479 bytes} [Fri Sep 18 14:33:55 2020] POST /pki/generate_cert => generated 145192 bytes in 87 msecs (HTTP/1.1 500) 3 headers in 126 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Sep 18 14:40:44 2020] ***
+compiled with version: 4.8.5 20150623 (NeoKylin 4.8.5-36) on 17 September 2020 11:39:45
+os: Linux-4.19.90-11.ky10.aarch64 #1 SMP Sat May 23 11:36:32 CST 2020
+nodename: kylin-182
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 258306
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.31.182:8081).
+bind(): Address already in use [core/socket.c line 769]
+Internal Server Error: /pki/hello
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./pki_services/urls.py", line 21, in <module>
+    from api import views as api_views
+  File "./api/views.py", line 11, in <module>
+    from utils.decorator import qd_compose, qd_validator, qd_http_response
+  File "./utils/decorator.py", line 6, in <module>
+    from django.utils.decorators import available_attrs
+ImportError: cannot import name 'available_attrs'
+[pid: 22070|app: 0|req: 4/4] 192.168.31.77 () {38 vars in 779 bytes} [Fri Sep 18 14:41:42 2020] GET /pki/hello => generated 145637 bytes in 87 msecs (HTTP/1.1 500) 3 headers in 126 bytes (1 switches on core 0)
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/usr/local/lib/python3.6/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 154, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./pki_services/urls.py", line 21, in <module>
+    from api import views as api_views
+  File "./api/views.py", line 11, in <module>
+    from utils.decorator import qd_compose, qd_validator, qd_http_response
+  File "./utils/decorator.py", line 6, in <module>
+    from django.utils.decorators import available_attrs
+ImportError: cannot import name 'available_attrs'
+[pid: 22070|app: 0|req: 5/5] 192.168.31.77 () {38 vars in 754 bytes} [Fri Sep 18 14:41:43 2020] GET /favicon.ico => generated 145642 bytes in 87 msecs (HTTP/1.1 500) 3 headers in 126 bytes (1 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./pki_services/urls.py", line 21, in <module>
+    from api import views as api_views
+  File "./api/views.py", line 11, in <module>
+    from utils.decorator import qd_compose, qd_validator, qd_http_response
+  File "./utils/decorator.py", line 6, in <module>
+    from django.utils.decorators import available_attrs
+ImportError: cannot import name 'available_attrs'
+[pid: 22070|app: 0|req: 6/6] 192.168.31.19 () {40 vars in 769 bytes} [Fri Sep 18 14:45:45 2020] GET / => generated 133482 bytes in 82 msecs (HTTP/1.1 500) 6 headers in 187 bytes (1 switches on core 0)
+Fri Sep 18 14:51:21 2020 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 18 14:51:21 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 18 14:51:21 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 18 14:51:21 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 18 14:51:21 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Sep 18 15:02:16 2020] ***
+compiled with version: 4.8.5 20150623 (NeoKylin 4.8.5-36) on 17 September 2020 11:39:45
+os: Linux-4.19.90-11.ky10.aarch64 #1 SMP Sat May 23 11:36:32 CST 2020
+nodename: kylin-182
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 64
+current working directory: /usr/java/beiyun/pki_services
+writing pidfile to /usr/java/beiyun/pki_services/pid/pki_services.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/java/beiyun/pki_services
+your processes number limit is 258306
+your memory page size is 65536 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.31.182:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46273 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 01:23:05)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x33e5dbd0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x33e5dbd0 pid: 23082 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23082)
+spawned uWSGI worker 1 (pid: 23084, cores: 1)
+spawned uWSGI worker 2 (pid: 23085, cores: 1)
+spawned uWSGI worker 3 (pid: 23086, cores: 1)
+spawned uWSGI worker 4 (pid: 23087, cores: 1)
+spawned uWSGI worker 5 (pid: 23088, cores: 1)
+spawned uWSGI http 1 (pid: 23089)
+/usr/local/lib64/python3.6/site-packages/cryptography/hazmat/bindings/openssl/binding.py:177: CryptographyDeprecationWarning: OpenSSL version 1.0.2 is no longer supported by the OpenSSL project, please upgrade. The next version of cryptography will drop support for it.
+  utils.CryptographyDeprecationWarning,
+[pid: 23088|app: 0|req: 1/1] 192.168.31.77 () {38 vars in 778 bytes} [Fri Sep 18 15:03:09 2020] GET /pki/hello => generated 42 bytes in 79 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 23088|app: 0|req: 2/2] 192.168.31.77 () {38 vars in 753 bytes} [Fri Sep 18 15:03:09 2020] GET /favicon.ico => generated 2191 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/10101024/10101024.req
+{'uid': '7da925e5-124e-4621-b658-4aa4ac5796f9', 'gid': '["glUdIOCPIe"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024.req -keyout /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|7da925e5-124e-4621-b658-4aa4ac5796f9"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+.......................................+++
+........................................................................................................................................+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024.req -out /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|7da925e5-124e-4621-b658-4aa4ac5796f9
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_key.key -out /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: ED 48 3D E7 50 CD FC D3 BF F6 88 00 DA 70 AD 2F 4A 9C 40 7B 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIWule5dGhbF8CAggA
+MBQGCCqGSIb3DQMHBAg9gNUyQd16nwSCBMjJLOYV1oc4yJp42GeSL7fIyqUY8lEK
+S3+DWe+w4wgne533k51fmI6wKrFVcrcWKvaC4lXcBtLE2mZPUf9awrm3kMxYkD6D
+6VNkqvk8Awwduq5Kv19XNLkNXk+pJ4ctJdExFhTP+nGhVCOqhijbcLhM/BM+Ylh5
+W4HvG1VLmmB7pECPlLvvArkd/W/Iy/FHN49B0OdC2BXnrXtmfps5XDxs7A6GI+03
+nprUWruAEUBYHw5yYfKhiI3vueNzq7XuorJMaJf8QcXC/VbpWdOucjZI2vVEkoSj
+xLZ+ZD4vPA6sE3V+oWKt+c+lQp2WeltciN0Zix/ucLJ0qA4HJ6tFwX+/CC083VjQ
+s4FQvE7+cBFAeV2vBaYKZftVCOPc995zd8F9RrWhW61wxNu3EV7pv40+X3qlPRpR
+9LkC51Rd0bjaWmei/zpH/YOM2rqs3ts0x9ZAy+Ojx0iun0nqwAGTCdVwqqu6ISFF
++UKrYOPyrWlmBX+KpM+s4E7tOj+GrHHUWrXbHreaq2Z74qAAQsF1D+M853Aa6ebw
+Q+w7KLWE4K2G4R5MWF++THjLYplviZ+d+S4r4K6KjNUGYKDMtdGE8FxZXuSt9XXO
+yJEAIuOLrSSU5kdSN0oL8gCsp6VPeCibnIRMIQemCxnCqjcgOoF3ylyiJNdI0vwM
+uF1HcxGjVA4o9XMhh9WguOkwtx4OIPGbldSq3RU0YEZuYpOkDf6hlDmnnkLmNdZ4
+kDy+GKLjcXG04G6bgBhlNFavwijd5yw1K4kKnqevc2reBl7Auy1ZpLLM6PqycFJv
+tMHG2GJKoiAjtDZQdiFG/BfHz8lS2iKNnrihFSPwV3mF9Y87dCTBSoxBJApewjNK
+MjA+5Z1VJPiK+albtpWAgyFzyGAMPtPj4Z96mcFfTelTA6Hhhj4xJ7h54tQUJ62p
+aRMSM8ZY/Xe3iSs7Cf2H5Q+TY9SZe0FdIoxjgOSeS4KqtAIn4GIkwFvReB7PkOR7
+oGEQq4ME1NZjvoBdgwZlBseOirD6aZK9cxrDp6r7ivZdYThYYj7NuJKs4jpJOWko
+0Rwnnkz06t4WxyRSa4BnJB1WglDJ1v9AFxVtKcB6B6TIsu/hnc0nshMhX18bFHeP
+VrOfZ7etrXHd8thDQhkB7P1BKB7yiDcD5T12c4o65CN38Pg2PsYgBV77cto2pKPQ
+BExvjOmf9KVJPCftsJDHmDISvA/msB0PPko0ceYh9E7jfJZ0VAq4ROHw9MwoGOWQ
+qsdHgVjEKWRYvcpB4BS2P8F3v9j2HBDdPSscTqrxoG9Rvl3Hg0pvZ80ILuNbyADD
+aV4xaSgWXBcFwftDF6ELiOnw1wVQ+AWFBz/vJcBqJktq48vmDR4bQMwJ8OxslZGJ
+hcyvEJaKwwYG8wAKGIo5dlilHia0kJw+2m7tgjAUiWgmGOJIAEkn/CWo6HRSh+I9
+4zfLHfLuX5eqlHVPZVgIugH8Ao45NFphOZmA/M6oqi5IlAWlYi0bnXOmypIAO0z1
++5YJNFC4bbc1n4BLxDew2F6kI1AAxrPkf7FMw7Dq2lnz56DkRTFRhZJ1xjdQR3tK
+WMIU2sfoVAPSflrgijsr/qiV84kMN8d2F4Sr6ALjsO+X6e0/iLy2/rkal085s+8z
+uco=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQJDANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkxODA3
+MDQ1MVoXDTI2MTIxNzA3MDQ1MVowgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfDdkYTkyNWU1LTEyNGUtNDYyMS1i
+NjU4LTRhYTRhYzU3OTZmOTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AL+KjqXxrVHJQKgrOsBL9P+qEoJfl2IXjhQAYyPYoIMR3z3LQ2ovDtH0Nv8BoU9f
+5zaR5e/JODmfCyIy6TYBQiFTCzOOLvKpMbf89oHUrOb/wWFk0D2rMEylt2AwBFug
+65A9rzMja3KpA/SC6uWotriDVwNzccvxBWtWR4/30sdDgatja63fkz/zr9jzIm2U
+2rSqnvOWKDKH1eBxPI769cIW+NjXzgF7OXUNEk1L8NUKTott9xu38PPFBZHOP8Xn
+L5TN60OWgnYnUiN19mgLrttgs7SS9TLRwq5CLypzzQ50Pb84u1SX01UKn/3yDEH8
+/QEp3vR1QKzKGoHR2rO1jT8CAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQCFlJ7VNHFz7YfuX3p8cySEBIOkPDMBjX16Ln19VApjBATkiuYdTelo8Ary
+WY+xwgPMneE5xo9aN1QPMFAaxNw/4M7E2sklOdlyMRMKf6BAERFJOZcyT7OnCC4s
+CgjFvCRjmx2v97k0WQ3AEyq2Na3y0UQaAlvq8AKYhoqEmrky7g==
+-----END CERTIFICATE-----
+
+[pid: 23088|app: 0|req: 3/3] 172.17.0.7 () {34 vars in 478 bytes} [Fri Sep 18 15:04:51 2020] POST /pki/generate_cert => generated 4867 bytes in 1333 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/10101025/10101025.req
+{'uid': 'e26c5932-e830-48f0-b89c-07718a71f207', 'gid': '["QmN4heh6NN"]', 'admin_level': '1'}
+1
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025.req -keyout /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-admin/CN=xsfs-user|e26c5932-e830-48f0-b89c-07718a71f207"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+.....................................................+++
+...................+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/10101025/10101025_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025.req -out /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025_cert.pem -days 365 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-admin/CN=xsfs-user|e26c5932-e830-48f0-b89c-07718a71f207
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025_key.key -out /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/10101025/10101025_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: D3 7F 0A DA 63 1E F3 94 87 DE CD 55 37 7A 17 CA D4 C9 07 89 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQI+y7rg7vOPrYCAggA
+MBQGCCqGSIb3DQMHBAgVojPIksne4QSCBMhbzU+fnP0C0aZSSIml+SPS2zMFyQkr
+fjS3+9uLRj5zgPikKAUK+jFiRPuw6RYKcta9wBDPqTqivh1EO6lTM5jaUbLCY/+T
+WgmoU/oXpA1yjM/3nAwImsWdYjynjhfKTPOsFBjD4pXRn5w0QGGO+QZPI/oOqTmX
+zsv6GardiYHj6gkkmxjN17sVOKxXpGbICx40dffYY+64u5T1ANC5OfmjRq1ySlkb
+6k+M6Kh1II1I9Y1WI7cOOG/9sZS0OAYf330SgGC4OWI2h80VEsvXmzo5/PkUqCmr
+FfPnB9V/6Ub3DoAxx76lwBbt7Skl4vsXDULXbHs0LD/IIduL/TFWprCsvTeqTk2K
+HKcMpwNx829e7JHfnrpU6nJMomSUvZ0bbi9lALPakf13tf0STr68+Try5GA/pb73
+UCwpq0YKScQqKPMle11my8Ia2lj+1639aMuCcLWz2WpkjU30zPRDoEIlnEJBIOa4
+xmjAIuQyg7BZJUyF2Plz28C8W740qrmtSQcyQzh7SJiYceKfsbZt/RjJdXUqupZ8
+8nHb6kKoVDq9qXSkQISPJ0BhHMmhin+nVN3kiI/a9xUppDPy4F8UDaww68QYB9at
+9KSdKlTIPrTR9//DGYrsWnwxPS85gcsL2EfNa+IQc+zExAiJldBNcyQOQNg36uOn
+LT8zcY6HoSs6K0nRqxz5dI1hSIIQSsBdRBLR37aV0fAmzyE/RjItiJmRysKhq9t+
+GUg0gr2p5CFy6fsGUIfAc+mDmiQwZOiHD62yEGc7V06jMvOwqk/pFV2S/OQwAZX3
+HgvYJd6jRbgxQnW01SyUJ6voLQAhuXSYWbJA3eKsMZx11sb8OnIXJR6F2ACPez2u
+cIHJnI7YeV0xybXlkTpZjuu0fqCW+yYQtirKZE1eQLEiBDSFtuYoy4mpYL1GeYo7
+SMImRZq1qKPLpa0B1KscZ+nQhJP4s7QYLKELf9XvWhWkW3vNsag1dX+hZMWkZ2Df
+duSP0I1aqy43lGq/dmnrq2VLwBIxpx5cB9MFJuSuFrBATBihGXO1hIUjsVZU6u+E
+OxDdtkK88b61X0qSVLnNP+izRjenhIhSu3U78M9/Nv7WZO9eA8WNYoIIsWjBWCFG
+tcwqi+q+6pE6YjdFFw0cIMDaNU85glJIwWzb3IDQlD0VfYF7s6pBmi8TskcKQwzn
+vpHgNVASgMdq32M1YVGJZIhiqM+OGOL9y+fzcPnWlot3TrGelrtHml+eB98Uzcjx
+rfdohaSGhW5BcZbIy9oPXL8eL2US00v55FERz7I9bvhA7iLMwOvjmiZSHjs6YFzx
+XYeZKKyoRP+z9H6TBqnZD5I9MHrwld9DZ4cb/6eNtn/CyJAZD6NNkfiAc9jAdhbX
+mJjZV/YW83yL3A2zVrexvjdLQHzQDq49gkOwrFF3G+BGFFpbgNXTo0L8NLRHTFv4
+uZnQfsB7HJG92pKONQAED/3DnhckG9UY0Qot/6g10iExnf8FmIAfxI1pyz0tzFXD
+9IsFeyNrWKJ3L7ndQpymfVoUy+p+6z8QAvDr1ToVem7krRJDo6OMljj7Vx81ghkM
+k4qlUOHLGx14VzXajaoVg+Cxy9YUxe6GnFIBEG/Vb5Vy54AJuc/RUI9XX4vP7+2W
+dJ0=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDHjCCAoegAwIBAgIEEBAQJTANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkyMjA1
+MDM1M1oXDTIxMDkyMjA1MDM1M1owgYYxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjETMBEGA1UECwwKeHNmcy1h
+ZG1pbjE3MDUGA1UEAwwueHNmcy11c2VyfGUyNmM1OTMyLWU4MzAtNDhmMC1iODlj
+LTA3NzE4YTcxZjIwNzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN0+
+91CAdmNNy4KmPD0orl2VT58UqzfDxDlyYi32UkQfRaiHwe5eRycLdDXwrOLidMAb
+Y3i2VklbAyhe8akunc+p9o480KlJjtbt5/mceZ5K0UPda3qKtc30yvp4QtSM4Erf
+oK0N0R/RsTfNqX4pP9Q+8tPAmAoYxQ6/ZBFH+Q50onYUL2KTJjOblh+814Px3rDe
+RnsDdS71bFPSNNDIsmnupNwxPHeJjFYu5Cg4bPXB7urYMOyvEnNua1Sgy0SpvqKd
+ZdNotS4qJtEIKvNSqvVN5cyC2E5thHeRR7IfdrCyhA16S3NbVh4fpMzRsHkdMJkv
+qSKQuxzCOgMdfMLq/qECAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoDgxwE
+BgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsFAAOB
+gQAHnki7zh3ZAMTcOxd4Ot8Qoxb+sFw+AIWS9evUWjeGEMm84JNMeWREvtrjAE/G
+Wfu3jwcCPat+nsfNr/QgvX4NdoJ/o66C/TpwKo7uek0BphailDKAWj6W831pO675
+UGCrOGTH1TZX1mrzbRetynQ6vGeATXt4kshGAiWz3ch2qg==
+-----END CERTIFICATE-----
+
+[pid: 23088|app: 0|req: 4/4] 172.17.0.7 () {34 vars in 480 bytes} [Tue Sep 22 13:03:52 2020] POST /pki/generate_cert => generated 4859 bytes in 1165 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+Running command: openssl ca -revoke /usr/java/beiyun/pki_services/ssl_crts/10101024/10101024_cert.pem -keyfile /usr/java/beiyun/pki_services/ca_cert/ca.key -cert /usr/java/beiyun/pki_services/ca_cert/ca.pem -config /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+执行输出: 
+错误输出: Using configuration from /usr/java/beiyun/pki_services/ca_cert/ca.cnf
+ERROR:name does not match /C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|7da925e5-124e-4621-b658-4aa4ac5796f9
+
+
+
+[pid: 23088|app: 0|req: 5/5] 172.17.0.7 () {34 vars in 475 bytes} [Tue Sep 22 13:06:56 2020] POST /pki/revoke_cert => generated 42 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+/usr/java/beiyun/pki_services/ssl_crts/10101026/10101026.req
+{'uid': '44788394-b3ed-4021-a77b-1d634c6c1452', 'gid': '["kba0vnwP0S"]', 'admin_level': '2'}
+2
+Running command: openssl req -new -newkey rsa:2048 -nodes -out /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026.req -keyout /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026_key.key -subj "/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|44788394-b3ed-4021-a77b-1d634c6c1452"
+执行输出: 
+错误输出: Generating a 2048 bit RSA private key
+............................................................................+++
+......................................+++
+writing new private key to '/usr/java/beiyun/pki_services/ssl_crts/10101026/10101026_key.key'
+-----
+
+
+
+Running command: openssl x509 -CA /usr/java/beiyun/pki_services/ca_cert/ca.pem -CAkey /usr/java/beiyun/pki_services/ca_cert/ca.key -CAserial /usr/java/beiyun/pki_services/ca_cert/ca.srl -req -in /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026.req -out /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026_cert.pem -days 2281 -extensions v3_req -extfile /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026_v3_ext.cnf
+执行输出: 
+错误输出: Signature ok
+subject=/C=CN/ST=BJ/L=BJ/O=Huoyin/OU=xsfs-operator/CN=xsfs-user|44788394-b3ed-4021-a77b-1d634c6c1452
+Getting CA Private Key
+
+
+
+Running command: openssl pkcs12 -export -in /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026_cert.pem -inkey /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026_key.key -out /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026.p12 -name "client_ca" -certfile /usr/java/beiyun/pki_services/ca_cert/ca.pem -password pass:12344321
+执行输出: 
+错误输出: 
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026.p12 -nocerts -out /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026_key.pem -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Running command: openssl pkcs12 -in /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026.p12 -clcerts -nokeys -out /usr/java/beiyun/pki_services/ssl_crts/10101026/10101026_cert.crt -passin pass:12344321 -passout pass:12344321
+执行输出: 
+错误输出: MAC verified OK
+
+
+
+Bag Attributes
+    friendlyName: client_ca
+    localKeyID: A1 05 AA 20 47 37 5D DD 0E 23 65 02 06 22 2F 9D 26 29 85 BB 
+Key Attributes: <No Attributes>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIaus/IgEK6GsCAggA
+MBQGCCqGSIb3DQMHBAiZtZc3LaATNwSCBMgiT7263SHbrZeJF37lSDDDbhULYYJr
+Xx46tZGKJqBN4E+xOGwxJsg6kDdRHXl63bOTKY21YLIkk2mVki+uaHB7RTgQQLGe
+oNF0YJnbMd1TNuMsM7w1i/ZkCBAN7v4XAInZkbLv9LXAp+CwlFepL2k77SdbDUzK
+qQKK/oQ8q1tMx086xPqLsH7MDZLnRB3BZ5ifDlbucVbOyJQBuykM68h80QwR1bVK
+Wr0/cHAmQO4gnOAD1S/D7LcQfMQVJ3vZnmKEwF9M//TPifxFKRoURkCLZn1adtU6
+5Nzsk6YCqkyIPn5yri5Xo5FJyGWwbodWBhDPsSD+6nRF8qHvUuDFqCkDXA8cogp8
+0SLlZn6IMYDzkV4YjzQPWWA153gTgYQUb1jOIzjI3ziKkFkJyvXX5x2iobOOGDr/
+lVCOWiLs5d4ecfLYumHWl/9aExtGOts6sK8AJ11x/ZTjTmSQxf07P+DUdpQrLSRq
+z+qkfmt6Sr4s4VIAx9IH0bCDHjY+7uEfN1vwM1hRaPUZ2q+OaNgNqZrsAbMkJS3S
+amKWI6fnB5FSsUBNmeOLGnMPbCHQiOunwQI+hxJPR2Mmv5suAmUXL3DJPD7EFAay
+1oyzjT3fuoKY+DLCJTb5ep4alCbhqhH/ongtLAPh45x4ebBeU4NSe5KPa77nj9tF
+w6fJ/UMmBt104VQRZjwSio2gTfDZRz6wa4UlNHefgPwKffNpCLVbrOGO6sBRMvH8
+MEPbrnoACuUtM6RRJd9rAGJylRlAl9ErvMX4R+4+tP8Hh4ImRpVD0hMN8BfU7L/V
+plRF2QMwvhMG8UYqvxkF5F87QZlyyyBMpOe7pcsEPp8FUVK32p66rSzW7XApusKb
+pqhZ4u6iC0HxxQOeDt+cTRABhL5mb81DJw1G/mkimmvotRRRPwMsl4QOVcLWnQL9
+P0dZcYVahaS5qWY1NcQBFoN++MSLa8ygMF8z3CBstYEOUZrAVY74DVpKqOTAnbzF
+K5vy4QVhQudcqRCahqM71n8RSm+Jcxdo0Yrk8Gu9BB1BmdZGNLA4akHHl/V/q03D
+Iy+e8yEj24K38+djE7EcTjbFTwFx8BB/6XbvGEEd4uCiuMySasEOYNsICdC8fqdu
+30dHhOEH1pA8u5wblWZOypIjnC/raoRAwk6ubST0rNDaMwS02VCgQjZzYLCHNg3r
+v+gJ/6r/9EtAlWpkRMXz5i42mMaLanZqknNZ5LssgEU3DeJnGpJuyMibApwJgMU6
+R+J1boctT4PyDCbOKodV4o1kvivg71c+JwCybJj4CqxFqGc6tXk2Opxa4kMdT5TA
+v2LcORe52Hc4ruH5v9SzWeZ+8DnLBaFvI8e38OooE+MvFIaXNBN9hROPs9Kcnw14
+y3GmISXFcbmTDfQNVHCS4/CqVT77eDjWNyRzoiRcoWFNXE1GP4OmNHX3mmrwC4/8
+SfwRUYPU1gonvR0Z0EdQxOpq/Swtn5fPuktRDnNl5ZUpdHOjBaJagib0rxYRl7gK
+4q/zpuzjgMDjjXl33iWdE9DZS2yl4P/Q05tMvvRpEtakAy0i56iNpQjrOhUZGqtM
+GQzCn4/ChF9utZP9BJ7nJ2UcIkBTB/34CBVG3QFqydl9m28NsvxrdwjGydfr+thV
+Ihc=
+-----END ENCRYPTED PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIIDITCCAoqgAwIBAgIEEBAQJjANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJD
+TjELMAkGA1UECAwCQkoxCzAJBgNVBAcMAkJKMQ8wDQYDVQQKDAZIdW95aW4xEDAO
+BgNVBAsMB0RldmVsb3AxFDASBgNVBAMMC1h0cmVlbUZTLUNBMB4XDTIwMDkyMjA1
+MDkzNloXDTI2MTIyMTA1MDkzNlowgYkxCzAJBgNVBAYTAkNOMQswCQYDVQQIDAJC
+SjELMAkGA1UEBwwCQkoxDzANBgNVBAoMBkh1b3lpbjEWMBQGA1UECwwNeHNmcy1v
+cGVyYXRvcjE3MDUGA1UEAwwueHNmcy11c2VyfDQ0Nzg4Mzk0LWIzZWQtNDAyMS1h
+NzdiLTFkNjM0YzZjMTQ1MjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AKce3HSI8cdteCZU2HbxgB4J6227jiBE3O/dmPfawxtk00BDUp+GoDkitU8tYg5t
+pzXeL/RyKhx7MVvhni1eSToJqdq3K4r3xjt6G3jDOm9oiHWFgudgsd7cco+gxk+Q
+It5ZAj+UjiLuZbLMSpSC8uflQQhH9WXUxyJse45bKKRMfFtbe8/ILljXIK4Jf1Iy
+ILEATaqHU0C17vVCbipfGyslj4IwjHPzZ10uTnWXgMTHwKS+tHYA2WnWOfA9Cb7a
+ljb5SK5pKEYy5/rAQxE9CFocWGMa2TWy1HuOUtDewWecn/JNqQVLfkYwtA7zlm7u
+JD4/5ukdi8bCKGplxKTTRXsCAwEAAaM6MDgwDgYEKgODGwQGDAR1aWQ6MA4GBCoD
+gxwEBgwEZ2lkOjAWBgQqA4MdBA4MDGFkbWluX2xldmVsOjANBgkqhkiG9w0BAQsF
+AAOBgQBUPux9nW9qaRL8qJTq9VeJm1LcLN+2/tt6xJrIH7qi/UEpKuWYza/SmYVq
+r+b19fmI+aFU+oXgh7OptVdf5sVw0TzlDkNoaX6ljDor3dGjRACeEzik1u+4lgDK
+2/dFwqNfKXmclftiNFpjIVlzJH0lgy5LHq7NCjYXPn4/5HazEg==
+-----END CERTIFICATE-----
+
+[pid: 23088|app: 0|req: 6/6] 172.17.0.7 () {34 vars in 479 bytes} [Tue Sep 22 13:09:36 2020] POST /pki/generate_cert => generated 4867 bytes in 1231 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
