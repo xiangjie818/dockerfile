@@ -1,4 +1,4 @@
-FROM amd64-python3:3.6.9
+FROM python:3.6.9
 MAINTAINER huoyin
 
 ENV PYTHONIOENCODING=UTF-8
@@ -29,5 +29,4 @@ RUN mkdir -p /usr/java/beiyun/pki_services/logs -p \
 WORKDIR /usr/java/beiyun/pki_services
 
 EXPOSE 8081
-#CMD ["sh", "-c", "/usr/java/beiyun/pki_services/start_uwsgi.sh"]
 CMD ["sh","-c","./start_uwsgi.sh"]

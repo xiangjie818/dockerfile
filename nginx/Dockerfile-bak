@@ -1,6 +1,0 @@
-FROM amd64-alpine:3.12.3
-
-RUN apk add --no-cache -U  nginx-1.18.0-r1
-
-EXPOSE 8192
-CMD ["nginx", "-g", "daemon off;"]

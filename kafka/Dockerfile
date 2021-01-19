@@ -1,4 +1,4 @@
-FROM amd64-jre:8
+FROM jre:8
 
 MAINTAINER zhaoxiangjie
 

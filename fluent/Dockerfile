@@ -4,6 +4,8 @@ FROM fluent/fluentd:v1.11-debian-1
 USER root
 
 RUN buildDeps="sudo make gcc g++ libc-dev" \
+    && sed -i "s@security.debian.org@mirrors.aliyun.com@g" /etc/apt/sources.list \
+    && sed -i "s@deb.debian.org@mirrors.aliyun.com@g" /etc/apt/sources.list \
     && apt-get update \
     && apt-get install -y --no-install-recommends $buildDeps \
     && gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ \

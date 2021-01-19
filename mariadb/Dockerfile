@@ -1,8 +1,11 @@
-FROM mariadb:10.2.33-bionic
+FROM mariadb:10.2-bionic
 MAINTAINER huoyin
 
-RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
-    && echo 'Asia/Shanghai' >/etc/timezone
+
+RUN cp /usr/share/zoneinfo/PRC /etc/localtime \
+    && echo 'Asia/Shanghai' > /etc/timezone \
+    && apt-get remove tzdata -y \
+    && rm -rf /usr/share/zoneinfo/* 
 
 #设置免密登录
 ENV MYSQL_ALLOW_EMPTY_PASSWORD yes
