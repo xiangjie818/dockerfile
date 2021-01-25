@@ -15,14 +15,14 @@
 #
 FROM ubuntu-huoyin:18.04
 #COPY --from=builder /src /src
-ADD http://192.168.31.209/xtreemfs/xsfs-amd64.tar.gz /
+ADD http://192.168.31.209/xtreemfs/xtfs-amd64.tar.gz /
 
 RUN apt-get update \
     && apt-get install -qy --no-install-recommends openjdk-8-jre-headless make uuid-runtime \
-    && tar xf /xsfs-amd64.tar.gz -C / \
-    && cd /src \
+    && tar xf /xtfs-amd64.tar.gz -C / \
+    && cd /xtfs/src \
     && make install-server install-server-repl-plugin \
-    && rm -rf /src \
+    && rm -rf /xtfs \
     && apt-get remove make -y \
     && apt-get autoclean \
     && apt-get clean \

@@ -1,28 +1,16 @@
-FROM openjdk:8-jre-alpine
-ADD http://192.168.31.209/xtreemfs/xsfs-amd64.tar.gz /
+FROM alpine:glibc-3.12.3
 
-RUN sed -i "s@dl-cdn.alpinelinux.org@mirrors.aliyun.com@g" /etc/apk/repositories \
-    && apk update \
-    && apk add --no-cache tzdata \
-    && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
-    && apk del tzdata \
-    && apk add --no-cache util-linux --virtual=build-dependencies g++  \
-    && tar xf /xsfs-amd64.tar.gz -C / \
-    && cd /src \
-    && make install-server install-server-repl-plugin \
-    && rm -rf /src \
-    && apk del --purge build-dependencies g++ \
-    && rm -rf /root/.cache \
-    && /etc/xos/xtreemfs/postinstall_setup.sh
-#
-#RUN apt-get update \
-#    && apt-get install -qy --no-install-recommends openjdk-8-jre-headless make uuid-runtime \
-#    && tar xf /xsfs-amd64.tar.gz -C / \
-#    && cd /src \
-#    && make install-server install-server-repl-plugin \
-#    && rm -rf /src \
-#    && apt-get remove make -y \
-#    && apt-get autoclean \
-#    && apt-get clean \
-#    && rm -rf /var/lib/apt/lists/* \
-#    && /etc/xos/xtreemfs/postinstall_setup.sh
+RUN cd / && \
+    wget http://192.168.31.209/xtreemfs/xtfs-amd64.tar.gz && \
+    apk update && \
+    apk add --no-cache make openjdk11-jre-headless util-linux && \
+    tar xf /xtfs-amd64.tar.gz -C / && \
+    cd /xtfs/src && \
+    make install-server install-server-repl-plugin && \
+    sed -i "s@groupadd@addgroup@g" /etc/xos/xtreemfs/postinstall_setup.sh && \
+    sed -i 's@    useradd.*@    adduser -S -h $XTREEMFS_HOME -G $XTREEMFS_GROUP $XTREEMFS_USER@g' /etc/xos/xtreemfs/postinstall_setup.sh && \
+    /etc/xos/xtreemfs/postinstall_setup.sh && \
+    rm -rf /xtfs && \
+    rm -rf /xtfs-amd64.tar.gz && \
+    apk del --purge make util-linux && \
+    rm -rf /root/.cache

@@ -1,7 +1,5 @@
-FROM openjdk:8-jre-alpine
+FROM ubuntu-huoyin:18.04
 
 MAINTAINER zhaoxiangjie
 
-COPY a.sh a.sh
-
-CMD ["a.sh"]
+VOLUME ["/data1","/data2"]

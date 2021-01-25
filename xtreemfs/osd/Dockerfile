@@ -20,7 +20,7 @@ ENV PHY_IP=192.168.31.181
 
 RUN mkdir $PROXY_DIR -p \
     && apt-get update \
-    && apt-get -qy  --no-install-recommends install snmp python3-pip python3-setuptools \
+    && apt-get -qy  --no-install-recommends install snmp python3-pip python3-setuptools gettext-base \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get autoclean \
     && apt-get clean

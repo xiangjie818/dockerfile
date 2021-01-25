@@ -1,4 +1,4 @@
-FROM xtfs-common:1.6.0
+FROM xtfs-common:1.6.0-alpine
 
 MAINTAINER zhaoxiangjie
 

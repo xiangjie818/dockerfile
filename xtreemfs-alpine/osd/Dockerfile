@@ -1,10 +1,6 @@
-FROM xtfs-common:1.6.0
+FROM xtfs-common:1.6.0-alpine
 
-MAINTAINER huoyin
-
-
-COPY start-osd.sh /etc/xos/xtreemfs/start-osd.sh
-COPY osdconfig.properties.template /etc/xos/xtreemfs/
+MAINTAINER zhaoxiangjie
 
 ENV LISTEN_PORT=32640
 ENV HTTP_PORT=30640
@@ -19,17 +15,17 @@ ENV PROXY_DIR=/usr/java/beiyun
 ENV PHY_IP=192.168.31.181
 
 RUN mkdir $PROXY_DIR -p \
-    && apt-get update \
-    && apt-get -qy  --no-install-recommends install snmp python3-pip python3-setuptools \
-    && rm -rf /var/lib/apt/lists/* \
-    && apt-get autoclean \
-    && apt-get clean
-
-COPY snmp_proxy ${PROXY_DIR}/snmp_proxy
-
-RUN cd ${PROXY_DIR}/snmp_proxy \
+    && apk update \
+    && apk add --no-cache net-snmp-tools py3-pip py3-setuptools \
+    && wget http://192.168.31.209/xtreemfs/snmp_proxy.tar.gz -P / \
+    && tar xf /snmp_proxy.tar.gz -C $PROXY_DIR \
+    && cd ${PROXY_DIR} \
+    && mv start-osd.sh /etc/xos/xtreemfs/start-osd.sh \
+    && mv osdconfig.properties.template /etc/xos/xtreemfs/osdconfig.properties.template \
     && pip3 install wheel \
-    && pip3 install -r requirement.txt
+    && pip3 install -r ${PROXY_DIR}/snmp_proxy/requirement.txt -i https://mirrors.aliyun.com/pypi/simple \
+    && rm -rf /snmp_proxy.tar.gz \
+    && rm -rf /root/.cache
 
 WORKDIR /etc/xos/xtreemfs/
 
