@@ -16,7 +16,7 @@ ENV PHY_IP=192.168.31.181
 
 RUN mkdir $PROXY_DIR -p \
     && apk update \
-    && apk add --no-cache net-snmp-tools py3-pip py3-setuptools \
+    && apk add --no-cache net-snmp-tools py3-pip py3-setuptools gettext \
     && wget http://192.168.31.209/xtreemfs/snmp_proxy.tar.gz -P / \
     && tar xf /snmp_proxy.tar.gz -C $PROXY_DIR \
     && cd ${PROXY_DIR} \
